@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  LeetCode-Swift
 //
-//  Created by 王妙 on 2019/4/5.
+//  Created by 李泽昆 on 2019/4/5.
 //  Copyright © 2019 李泽昆. All rights reserved.
 //
 

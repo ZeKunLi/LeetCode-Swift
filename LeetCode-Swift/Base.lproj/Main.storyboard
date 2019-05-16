@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="YLk-3q-LTh">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="YLk-3q-LTh">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--算法-->
+        <!--LeetCode(力扣)-->
         <scene sceneID="7k0-TK-9nd">
             <objects>
                 <tableViewController id="0Cd-o3-kRd" customClass="TableViewController" customModule="LeetCode_Swift" customModuleProvider="target" sceneMemberID="viewController">
@@ -45,6 +45,30 @@
                                             <segue destination="Csz-EQ-pxb" kind="push" id="5Gl-ja-Bb2"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="detailDisclosureButton" indentationWidth="10" id="nhl-Qe-HHN">
+                                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="nhl-Qe-HHN" id="gEQ-JQ-jyb">
+                                            <rect key="frame" x="0.0" y="0.0" width="307" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="整数反转" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OKk-AT-9BA">
+                                                    <rect key="frame" x="15" y="11.5" width="69.5" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="OKk-AT-9BA" firstAttribute="leading" secondItem="gEQ-JQ-jyb" secondAttribute="leading" constant="15" id="Dg0-tB-hxU"/>
+                                                <constraint firstItem="OKk-AT-9BA" firstAttribute="centerY" secondItem="gEQ-JQ-jyb" secondAttribute="centerY" id="Eg1-nt-gYa"/>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="OKk-AT-9BA" secondAttribute="trailing" constant="20" symbolic="YES" id="doM-Vy-GCW"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="8ec-MS-ult" kind="push" id="IY0-8P-gqY"/>
+                                        </connections>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -53,13 +77,13 @@
                             <outlet property="delegate" destination="0Cd-o3-kRd" id="Smc-OB-qOx"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="算法" id="9Ri-5y-J99"/>
+                    <navigationItem key="navigationItem" title="LeetCode(力扣)" id="9Ri-5y-J99"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SS2-YF-Nkk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2866.4000000000001" y="-624.73763118440786"/>
         </scene>
-        <!--Leet Code View Controller-->
+        <!--两数之和-->
         <scene sceneID="bkK-5z-phK">
             <objects>
                 <viewController id="Csz-EQ-pxb" customClass="LeetCodeViewController" customModule="LeetCode_Swift" customModuleProvider="target" sceneMemberID="viewController">
@@ -69,11 +93,27 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="1tZ-qF-kPW"/>
                     </view>
-                    <navigationItem key="navigationItem" id="FmJ-bh-tuG"/>
+                    <navigationItem key="navigationItem" title="两数之和" id="FmJ-bh-tuG"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zO3-80-H3X" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3633" y="-711"/>
+        </scene>
+        <!--整数反转-->
+        <scene sceneID="y0P-PK-PMb">
+            <objects>
+                <viewController id="8ec-MS-ult" customClass="ReverseIntegerViewController" customModule="LeetCode_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Edb-nq-X66">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="e0f-dd-EZW"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="整数反转" id="bN1-3U-RfF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hUH-y1-5G7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3677" y="22"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="224-3D-yIC">

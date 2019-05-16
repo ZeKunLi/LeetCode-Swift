@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81BFDB25228CE09000B0A7D9 /* ReverseIntegerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BFDB24228CE09000B0A7D9 /* ReverseIntegerViewController.swift */; };
 		81FC67A2225709E0007CC252 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FC67A1225709E0007CC252 /* AppDelegate.swift */; };
 		81FC67A7225709E0007CC252 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81FC67A5225709E0007CC252 /* Main.storyboard */; };
 		81FC67A9225709E2007CC252 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81FC67A8225709E2007CC252 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		81BFDB24228CE09000B0A7D9 /* ReverseIntegerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseIntegerViewController.swift; sourceTree = "<group>"; };
 		81FC679E225709E0007CC252 /* LeetCode-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LeetCode-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81FC67A1225709E0007CC252 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81FC67A6225709E0007CC252 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				81FC67A1225709E0007CC252 /* AppDelegate.swift */,
 				81FC67B322570CE0007CC252 /* TableViewController.swift */,
 				81FC67B522571104007CC252 /* LeetCodeViewController.swift */,
+				81BFDB24228CE09000B0A7D9 /* ReverseIntegerViewController.swift */,
 				81FC67A5225709E0007CC252 /* Main.storyboard */,
 				81FC67A8225709E2007CC252 /* Assets.xcassets */,
 				81FC67AA225709E2007CC252 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				81FC67A2225709E0007CC252 /* AppDelegate.swift in Sources */,
 				81FC67B622571104007CC252 /* LeetCodeViewController.swift in Sources */,
+				81BFDB25228CE09000B0A7D9 /* ReverseIntegerViewController.swift in Sources */,
 				81FC67B422570CE0007CC252 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -2,7 +2,7 @@
 //  LeetCodeViewController.swift
 //  LeetCode-Swift
 //
-//  Created by 王妙 on 2019/4/5.
+//  Created by 李泽昆 on 2019/4/5.
 //  Copyright © 2019 李泽昆. All rights reserved.
 //
 
@@ -12,14 +12,12 @@ class LeetCodeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
         print(twoSum([3, 2, 4], 6))
     }
     
-    
-
-
+    // MARK: - 两数之和
     func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
         var map = [Int: Int]()
         for i in 0..<nums.count {
