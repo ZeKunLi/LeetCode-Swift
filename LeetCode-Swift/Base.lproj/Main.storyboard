@@ -69,6 +69,30 @@
                                             <segue destination="8ec-MS-ult" kind="push" id="IY0-8P-gqY"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="detailDisclosureButton" indentationWidth="10" id="pNu-sR-bA9">
+                                        <rect key="frame" x="0.0" y="88" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="pNu-sR-bA9" id="TuT-x5-ku6">
+                                            <rect key="frame" x="0.0" y="0.0" width="307" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="回文数" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7tr-vV-1Si">
+                                                    <rect key="frame" x="15" y="11.5" width="52" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="7tr-vV-1Si" firstAttribute="leading" secondItem="TuT-x5-ku6" secondAttribute="leading" constant="15" id="P3N-6h-FbW"/>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="7tr-vV-1Si" secondAttribute="trailing" constant="20" symbolic="YES" id="ySe-Wc-ioB"/>
+                                                <constraint firstItem="7tr-vV-1Si" firstAttribute="centerY" secondItem="TuT-x5-ku6" secondAttribute="centerY" id="zMh-5t-E7j"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="4Sa-jD-VhL" kind="push" id="mm9-Ce-8Io"/>
+                                        </connections>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -98,6 +122,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zO3-80-H3X" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3633" y="-711"/>
+        </scene>
+        <!--回文数-->
+        <scene sceneID="zea-VR-jcf">
+            <objects>
+                <viewController id="4Sa-jD-VhL" customClass="PalindromeNumberViewController" customModule="LeetCode_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YVt-3h-DLy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="X7J-2s-Vrl"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="回文数" id="0v6-x6-8Ys"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tda-Db-ZJ5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4112" y="-408"/>
         </scene>
         <!--整数反转-->
         <scene sceneID="y0P-PK-PMb">
