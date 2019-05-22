@@ -14,7 +14,7 @@ class RomanToIntegerViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        print(romanToInt("IIIIMCMXCIV"))
+        print(romanToInt("MCMXCIV"))
     }
     
     // MARK: - 罗马数字转整数
