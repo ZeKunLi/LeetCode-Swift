@@ -246,7 +246,7 @@
         <!--二分查找-->
         <scene sceneID="Z7I-GA-1cN">
             <objects>
-                <viewController title="二分查找" id="iG6-q7-hy7" sceneMemberID="viewController">
+                <viewController title="二分查找" id="iG6-q7-hy7" customClass="BinarySearchViewController" customModule="LeetCode_Swift" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="M5d-FV-PkE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
