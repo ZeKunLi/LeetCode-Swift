@@ -31,7 +31,7 @@ class BinarySearchViewController: UIViewController {
                 return middle;
             } else if target < nums[middle] {
                 end = middle - 1
-            } else {
+            } else if target > nums[middle] {
                 start = middle + 1
             }
             
