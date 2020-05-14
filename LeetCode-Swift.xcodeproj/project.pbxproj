@@ -18,6 +18,7 @@
 		81FC67AC225709E2007CC252 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81FC67AA225709E2007CC252 /* LaunchScreen.storyboard */; };
 		81FC67B422570CE0007CC252 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FC67B322570CE0007CC252 /* TableViewController.swift */; };
 		81FC67B622571104007CC252 /* LeetCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FC67B522571104007CC252 /* LeetCodeViewController.swift */; };
+		84BB9EB0246CF6E900D34B17 /* ReverseStringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BB9EAF246CF6E900D34B17 /* ReverseStringViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		81FC67AD225709E2007CC252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81FC67B322570CE0007CC252 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		81FC67B522571104007CC252 /* LeetCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCodeViewController.swift; sourceTree = "<group>"; };
+		84BB9EAF246CF6E900D34B17 /* ReverseStringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseStringViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				81BFDB85228FEB7100B0A7D9 /* RomanToIntegerViewController.swift */,
 				81BFDBC42291845100B0A7D9 /* LongestCommonPrefixViewController.swift */,
 				813E304D2294F5DA00AF9836 /* BinarySearchViewController.swift */,
+				84BB9EAF246CF6E900D34B17 /* ReverseStringViewController.swift */,
 				81FC67A5225709E0007CC252 /* Main.storyboard */,
 				81FC67A8225709E2007CC252 /* Assets.xcassets */,
 				81FC67AA225709E2007CC252 /* LaunchScreen.storyboard */,
@@ -114,6 +117,7 @@
 				TargetAttributes = {
 					81FC679D225709E0007CC252 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1140;
 					};
 				};
 			};
@@ -154,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81FC67A2225709E0007CC252 /* AppDelegate.swift in Sources */,
+				84BB9EB0246CF6E900D34B17 /* ReverseStringViewController.swift in Sources */,
 				81BFDBC52291845100B0A7D9 /* LongestCommonPrefixViewController.swift in Sources */,
 				813E304E2294F5DA00AF9836 /* BinarySearchViewController.swift in Sources */,
 				81BFDB27228E90E600B0A7D9 /* PalindromeNumberViewController.swift in Sources */,
@@ -306,6 +311,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3E64977ATL;
 				INFOPLIST_FILE = "LeetCode-Swift/Info.plist";
@@ -315,6 +321,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "LiZeKun.LeetCode-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -324,6 +331,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3E64977ATL;
 				INFOPLIST_FILE = "LeetCode-Swift/Info.plist";
