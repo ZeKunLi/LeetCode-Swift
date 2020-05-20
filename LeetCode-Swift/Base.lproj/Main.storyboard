@@ -187,6 +187,30 @@
                                             <segue destination="nQW-f1-8x4" kind="push" id="XcE-1s-Crk"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="detailDisclosureButton" indentationWidth="10" id="Q6u-Li-por">
+                                        <rect key="frame" x="0.0" y="336" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Q6u-Li-por" id="8eV-pk-6nK">
+                                            <rect key="frame" x="0.0" y="0.0" width="316" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="斐波那契数列" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="srn-6q-hO0">
+                                                    <rect key="frame" x="15" y="11.5" width="104" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="srn-6q-hO0" firstAttribute="leading" secondItem="8eV-pk-6nK" secondAttribute="leading" constant="15" id="OFT-ho-C3Z"/>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="srn-6q-hO0" secondAttribute="trailing" constant="20" symbolic="YES" id="aLD-yZ-Lrc"/>
+                                                <constraint firstItem="srn-6q-hO0" firstAttribute="centerY" secondItem="8eV-pk-6nK" secondAttribute="centerY" id="hpA-QS-OSm"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="iKW-Pv-J0Z" kind="push" id="sHB-Jn-1md"/>
+                                        </connections>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -330,6 +354,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gr6-2l-qXQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1927.2" y="-624.73763118440786"/>
+        </scene>
+        <!--斐波那契数列-->
+        <scene sceneID="mQi-Tf-JnA">
+            <objects>
+                <viewController title="斐波那契数列" id="iKW-Pv-J0Z" customClass="FibonacciViewController" customModule="LeetCode_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="J4B-5X-Uhc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="dHx-Hr-knf"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="斐波那契数列" id="Gdr-sj-rCq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hxY-J2-EEs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8692" y="-1309"/>
         </scene>
     </scenes>
 </document>

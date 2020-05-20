@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7FC05E3B2474204D008DC1B7 /* FibonacciViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC05E3A2474204D008DC1B7 /* FibonacciViewController.swift */; };
 		813E304E2294F5DA00AF9836 /* BinarySearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813E304D2294F5DA00AF9836 /* BinarySearchViewController.swift */; };
 		81BFDB25228CE09000B0A7D9 /* ReverseIntegerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BFDB24228CE09000B0A7D9 /* ReverseIntegerViewController.swift */; };
 		81BFDB27228E90E600B0A7D9 /* PalindromeNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BFDB26228E90E600B0A7D9 /* PalindromeNumberViewController.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7FC05E3A2474204D008DC1B7 /* FibonacciViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibonacciViewController.swift; sourceTree = "<group>"; };
 		813E304D2294F5DA00AF9836 /* BinarySearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchViewController.swift; sourceTree = "<group>"; };
 		81BFDB24228CE09000B0A7D9 /* ReverseIntegerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseIntegerViewController.swift; sourceTree = "<group>"; };
 		81BFDB26228E90E600B0A7D9 /* PalindromeNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeNumberViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				81BFDBC42291845100B0A7D9 /* LongestCommonPrefixViewController.swift */,
 				813E304D2294F5DA00AF9836 /* BinarySearchViewController.swift */,
 				84BB9EAF246CF6E900D34B17 /* ReverseStringViewController.swift */,
+				7FC05E3A2474204D008DC1B7 /* FibonacciViewController.swift */,
 				81FC67A5225709E0007CC252 /* Main.storyboard */,
 				81FC67A8225709E2007CC252 /* Assets.xcassets */,
 				81FC67AA225709E2007CC252 /* LaunchScreen.storyboard */,
@@ -160,6 +163,7 @@
 				81FC67A2225709E0007CC252 /* AppDelegate.swift in Sources */,
 				84BB9EB0246CF6E900D34B17 /* ReverseStringViewController.swift in Sources */,
 				81BFDBC52291845100B0A7D9 /* LongestCommonPrefixViewController.swift in Sources */,
+				7FC05E3B2474204D008DC1B7 /* FibonacciViewController.swift in Sources */,
 				813E304E2294F5DA00AF9836 /* BinarySearchViewController.swift in Sources */,
 				81BFDB27228E90E600B0A7D9 /* PalindromeNumberViewController.swift in Sources */,
 				81FC67B622571104007CC252 /* LeetCodeViewController.swift in Sources */,
