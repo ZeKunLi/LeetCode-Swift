@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7F19475F24C7F3E600465395 /* RotateMinNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F19475E24C7F3E600465395 /* RotateMinNumberViewController.swift */; };
+		7F19476124C7FE4700465395 /* ReverseLinkedListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F19476024C7FE4700465395 /* ReverseLinkedListViewController.swift */; };
 		7FC05E3B2474204D008DC1B7 /* FibonacciViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC05E3A2474204D008DC1B7 /* FibonacciViewController.swift */; };
 		813E304E2294F5DA00AF9836 /* BinarySearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813E304D2294F5DA00AF9836 /* BinarySearchViewController.swift */; };
 		81BFDB25228CE09000B0A7D9 /* ReverseIntegerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BFDB24228CE09000B0A7D9 /* ReverseIntegerViewController.swift */; };
@@ -25,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		7F19475E24C7F3E600465395 /* RotateMinNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateMinNumberViewController.swift; sourceTree = "<group>"; };
+		7F19476024C7FE4700465395 /* ReverseLinkedListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseLinkedListViewController.swift; sourceTree = "<group>"; };
 		7FC05E3A2474204D008DC1B7 /* FibonacciViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibonacciViewController.swift; sourceTree = "<group>"; };
 		813E304D2294F5DA00AF9836 /* BinarySearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchViewController.swift; sourceTree = "<group>"; };
 		81BFDB24228CE09000B0A7D9 /* ReverseIntegerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseIntegerViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				84BB9EAF246CF6E900D34B17 /* ReverseStringViewController.swift */,
 				7FC05E3A2474204D008DC1B7 /* FibonacciViewController.swift */,
 				7F19475E24C7F3E600465395 /* RotateMinNumberViewController.swift */,
+				7F19476024C7FE4700465395 /* ReverseLinkedListViewController.swift */,
 				81FC67A5225709E0007CC252 /* Main.storyboard */,
 				81FC67A8225709E2007CC252 /* Assets.xcassets */,
 				81FC67AA225709E2007CC252 /* LaunchScreen.storyboard */,
@@ -173,6 +176,7 @@
 				81FC67B622571104007CC252 /* LeetCodeViewController.swift in Sources */,
 				81BFDB25228CE09000B0A7D9 /* ReverseIntegerViewController.swift in Sources */,
 				81BFDB86228FEB7100B0A7D9 /* RomanToIntegerViewController.swift in Sources */,
+				7F19476124C7FE4700465395 /* ReverseLinkedListViewController.swift in Sources */,
 				81FC67B422570CE0007CC252 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
