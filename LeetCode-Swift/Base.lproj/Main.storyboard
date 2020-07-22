@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="YLk-3q-LTh">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="YLk-3q-LTh">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -211,6 +211,30 @@
                                             <segue destination="iKW-Pv-J0Z" kind="push" id="sHB-Jn-1md"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="detailDisclosureButton" indentationWidth="10" id="pQJ-GB-5bp">
+                                        <rect key="frame" x="0.0" y="380" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="pQJ-GB-5bp" id="H5H-aE-bvk">
+                                            <rect key="frame" x="0.0" y="0.0" width="316" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="旋转数组的最小数字" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nGp-R0-rQg">
+                                                    <rect key="frame" x="15" y="11.5" width="156" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="nGp-R0-rQg" firstAttribute="leading" secondItem="H5H-aE-bvk" secondAttribute="leading" constant="15" id="biF-pl-GKH"/>
+                                                <constraint firstItem="nGp-R0-rQg" firstAttribute="centerY" secondItem="H5H-aE-bvk" secondAttribute="centerY" id="ffA-Qv-5hs"/>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="nGp-R0-rQg" secondAttribute="trailing" constant="20" symbolic="YES" id="lQ1-R9-Lyp"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="D5j-lh-waH" kind="push" id="fpl-fy-3Os"/>
+                                        </connections>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -370,6 +394,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hxY-J2-EEs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="8692" y="-1309"/>
+        </scene>
+        <!--旋转数组的最小数字-->
+        <scene sceneID="Lqr-AP-R4K">
+            <objects>
+                <viewController id="D5j-lh-waH" customClass="RotateMinNumberViewController" customModule="LeetCode_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PsC-eB-lmT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="0cH-Ub-9CT"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="旋转数组的最小数字" id="K3x-BQ-B0G"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lR1-hc-YDd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1922" y="35"/>
         </scene>
     </scenes>
 </document>
