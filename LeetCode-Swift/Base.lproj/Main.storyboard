@@ -259,6 +259,30 @@
                                             <segue destination="3NO-cQ-Jx0" kind="push" id="rrU-RV-Wte"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="detailDisclosureButton" indentationWidth="10" id="yDB-zV-c4d">
+                                        <rect key="frame" x="0.0" y="468" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="yDB-zV-c4d" id="Ntj-11-ICL">
+                                            <rect key="frame" x="0.0" y="0.0" width="316" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="第一个只出现一次的字符" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IK0-zw-9tr">
+                                                    <rect key="frame" x="15" y="11.5" width="191" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="IK0-zw-9tr" firstAttribute="centerY" secondItem="Ntj-11-ICL" secondAttribute="centerY" id="Dig-hf-G5y"/>
+                                                <constraint firstItem="IK0-zw-9tr" firstAttribute="leading" secondItem="Ntj-11-ICL" secondAttribute="leading" constant="15" id="bZG-bo-h3e"/>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="IK0-zw-9tr" secondAttribute="trailing" constant="20" symbolic="YES" id="qRN-E0-2oe"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="eyc-Rj-2ky" kind="push" id="E9G-ga-8w7"/>
+                                        </connections>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -450,6 +474,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="asU-Mm-h8g" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="10110" y="-1309"/>
+        </scene>
+        <!--第一个只出现一次的字符-->
+        <scene sceneID="HyA-DV-EXu">
+            <objects>
+                <viewController id="eyc-Rj-2ky" customClass="FirstUniqCharViewController" customModule="LeetCode_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="54F-cb-kDU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="H1e-Xh-mV5"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="第一个只出现一次的字符" id="ZGE-tv-Pa7"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hIM-OT-h50" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="10845" y="-1311"/>
         </scene>
     </scenes>
 </document>
