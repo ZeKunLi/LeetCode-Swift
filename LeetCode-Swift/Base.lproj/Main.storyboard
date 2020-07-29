@@ -283,6 +283,30 @@
                                             <segue destination="eyc-Rj-2ky" kind="push" id="E9G-ga-8w7"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="detailDisclosureButton" indentationWidth="10" id="xVY-VX-PUc">
+                                        <rect key="frame" x="0.0" y="512" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xVY-VX-PUc" id="RSL-fS-Utb">
+                                            <rect key="frame" x="0.0" y="0.0" width="316" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="累加和" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cnG-1l-1ij">
+                                                    <rect key="frame" x="15" y="11.5" width="52" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="cnG-1l-1ij" firstAttribute="leading" secondItem="RSL-fS-Utb" secondAttribute="leading" constant="15" id="9tO-6E-not"/>
+                                                <constraint firstItem="cnG-1l-1ij" firstAttribute="centerY" secondItem="RSL-fS-Utb" secondAttribute="centerY" id="Q62-gJ-nmf"/>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="cnG-1l-1ij" secondAttribute="trailing" constant="20" symbolic="YES" id="hWa-CX-tG3"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="wPL-g2-lrL" kind="push" id="ZjK-02-VMm"/>
+                                        </connections>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -490,6 +514,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hIM-OT-h50" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="10845" y="-1311"/>
+        </scene>
+        <!--1-100累加和-->
+        <scene sceneID="YRT-2u-cwP">
+            <objects>
+                <viewController id="wPL-g2-lrL" customClass="CumulateSumViewController" customModule="LeetCode_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="m63-29-cph">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="YBc-oc-BU0"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="1-100累加和" id="N1t-Uv-tko"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P90-T8-hIY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="11559" y="-1304"/>
         </scene>
     </scenes>
 </document>
