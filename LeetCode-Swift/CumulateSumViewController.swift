@@ -15,7 +15,7 @@ class CumulateSumViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         
-        print(iterationSum(100))
+        print(optimizeSum(100))
         
         
     }
@@ -61,6 +61,10 @@ class CumulateSumViewController: UIViewController {
         
         return sum
         
+    }
+    
+    func optimizeSum(_ num:Int) -> Int {
+        return num * (num + 1) / 2
     }
     
 
