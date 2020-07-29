@@ -19,12 +19,12 @@ class LeetCodeViewController: UIViewController {
     
     // MARK: - 两数之和
     func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
-        var map = [Int: Int]()
+        var map = [Int:Int]()
         for i in 0..<nums.count {
-            let difference = target - nums[i]
-            if map.keys.contains(difference) {
-                if let index = map[difference] {
-                    return [index, i]
+            let different = target - nums[i]
+            if map.keys.contains(different) {
+                if let index = map[different] {
+                    return [index,i]
                 }
             } else {
                 map[nums[i]] = i
@@ -32,6 +32,20 @@ class LeetCodeViewController: UIViewController {
         }
         return [Int]()
     }
+    
+    /// 暴力解法
+//    func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
+//       for i in 0..<nums.count {
+//          for j in 0..<nums.count {
+//           if target == nums[i] + nums[j] {
+//               return [i,j]
+//           }
+//          }
+//       }
+//       return [Int]()
+//    }
+    
+       
     /*
     // MARK: - Navigation
 

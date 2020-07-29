@@ -16,6 +16,14 @@ class FirstUniqCharViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         print(firstUniqChar("leetcode"))
+        
+        let greeting = "Guten Tag!"
+        
+        let index = greeting.index(greeting.startIndex, offsetBy: 7)
+        
+        
+        
+        print(greeting[index])
     }
     
 
