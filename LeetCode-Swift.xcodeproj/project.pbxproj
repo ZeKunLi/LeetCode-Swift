@@ -11,6 +11,7 @@
 		7F19476124C7FE4700465395 /* ReverseLinkedListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F19476024C7FE4700465395 /* ReverseLinkedListViewController.swift */; };
 		7F19476324CA919500465395 /* FirstUniqCharViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F19476224CA919500465395 /* FirstUniqCharViewController.swift */; };
 		7F8408B424D1565E00859C04 /* CumulateSumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8408B324D1565E00859C04 /* CumulateSumViewController.swift */; };
+		7F8408B824D18A5700859C04 /* LargestNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8408B724D18A5700859C04 /* LargestNumberViewController.swift */; };
 		7FC05E3B2474204D008DC1B7 /* FibonacciViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC05E3A2474204D008DC1B7 /* FibonacciViewController.swift */; };
 		813E304E2294F5DA00AF9836 /* BinarySearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813E304D2294F5DA00AF9836 /* BinarySearchViewController.swift */; };
 		81BFDB25228CE09000B0A7D9 /* ReverseIntegerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BFDB24228CE09000B0A7D9 /* ReverseIntegerViewController.swift */; };
@@ -31,6 +32,7 @@
 		7F19476024C7FE4700465395 /* ReverseLinkedListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseLinkedListViewController.swift; sourceTree = "<group>"; };
 		7F19476224CA919500465395 /* FirstUniqCharViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstUniqCharViewController.swift; sourceTree = "<group>"; };
 		7F8408B324D1565E00859C04 /* CumulateSumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CumulateSumViewController.swift; sourceTree = "<group>"; };
+		7F8408B724D18A5700859C04 /* LargestNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargestNumberViewController.swift; sourceTree = "<group>"; };
 		7FC05E3A2474204D008DC1B7 /* FibonacciViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibonacciViewController.swift; sourceTree = "<group>"; };
 		813E304D2294F5DA00AF9836 /* BinarySearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchViewController.swift; sourceTree = "<group>"; };
 		81BFDB24228CE09000B0A7D9 /* ReverseIntegerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseIntegerViewController.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				7F19476024C7FE4700465395 /* ReverseLinkedListViewController.swift */,
 				7F19476224CA919500465395 /* FirstUniqCharViewController.swift */,
 				7F8408B324D1565E00859C04 /* CumulateSumViewController.swift */,
+				7F8408B724D18A5700859C04 /* LargestNumberViewController.swift */,
 				81FC67A5225709E0007CC252 /* Main.storyboard */,
 				81FC67A8225709E2007CC252 /* Assets.xcassets */,
 				81FC67AA225709E2007CC252 /* LaunchScreen.storyboard */,
@@ -174,6 +177,7 @@
 			files = (
 				81FC67A2225709E0007CC252 /* AppDelegate.swift in Sources */,
 				7F19475F24C7F3E600465395 /* RotateMinNumberViewController.swift in Sources */,
+				7F8408B824D18A5700859C04 /* LargestNumberViewController.swift in Sources */,
 				84BB9EB0246CF6E900D34B17 /* ReverseStringViewController.swift in Sources */,
 				81BFDBC52291845100B0A7D9 /* LongestCommonPrefixViewController.swift in Sources */,
 				7FC05E3B2474204D008DC1B7 /* FibonacciViewController.swift in Sources */,
